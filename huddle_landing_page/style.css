@@ -1,0 +1,69 @@
+:root{
+    --background-color: black;
+    --color: aliceblue;
+    --padding-large:30px;
+    --padding-small:5%;
+    --margin-small: 2px;
+    --margin-color: teal;
+}
+*{
+    padding: 0;
+    /* margin: var(--margin-small) ; */
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    padding: top 50px;
+    padding-left: var(--padding-small);
+    padding-right: var(--padding-small);
+}
+.headers{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.Main{
+    background-image:url(./images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-position:center; 
+    height: 100vh;
+    width: 100%;
+  
+}
+.sub-main{
+    position:absolute;
+    top: 35%;
+    left: 50px;
+    padding: 8px;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+    
+
+.sub-main.headers{
+    font-size: 75%;
+}
+.hd{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+
+}
+.btn1{
+    background-color: solid white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px 25px;
+    border-radius: 45px;
+    border: 2px rgb(3, 200, 245);
+    transition: .5s;
+    width: 15%;
+    position: absolute;    
+    top: 50px;
+    left: 80%;
+    
+}

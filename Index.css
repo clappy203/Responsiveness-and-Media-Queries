@@ -6,55 +6,58 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
-.All{
-    display: flex;
-    margin: 300px 20px 10px 10px;
+.all{
+  display: flex;
+  justify-content: space-between; */
+    /* margin: 300px 20px 10px 10px; */
 }
-.Sidetext {
-margin-top: 55%;
-padding-left: 48%;
-/* width: 200%; */
- 
+.sidetext {
+width: 40%;
 }
-  .Sidetext h2{
-    font-size: 40px;
-    width: 200%;
-    color: #fff;
-  }
 
-  .Sidetext P{
-    width: 200%;
-    color: #fff;
-  }
 
-.container{
+/* @media screen and (min-width: 375px) { */
+   
+
+  .sidetext {
+      margin-top: 25%;
+      /* padding-left: 68%; */
+      width: 40%;
+  }
+  .container {
     font-size: 16px;
     font-family: Poppins;
-    font-weight:  400;
-    width: 140%;
-    /* padding: 80px 20px 20px 900px; */
-    margin: 20px 40px 10px 20px;
-    padding-left: 155px;
-}
-.container button{
+    font-weight: 400;
+    width: 100%;
+  }
+  .container button {
     background-color: hsl(248, 32%, 49%);
-    width: 448%;
+    width: 38rem;
     color: #fff;
     height: 50px;
     justify-content: right;
     border-radius: 5px;
     margin: 15px 0px 30px;
 }
-.Input-box{
-    /* margin: 20px 20px 0px 30px; */
+  .sidetext h2{
+    font-size: 40px;
+    width: 200%;
+    color: #fff;
+  }
+
+  .sidetext P{
+    width: 200%;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+.input-box{
     background-color: #fff;
-    width: 448%;
+    width: 38rem;
     height: 80%;
     border-radius: 5px;
 }
-.Input-box #text{
-    /* text-align: left;
-    width: 90%; */
+.input-box #text{
     margin-bottom: 50px;
     margin-top: 10px;
     padding-left: 100px;
@@ -62,8 +65,7 @@ padding-left: 48%;
     text-justify: distribute;
    }
 
-.Input-box input,
-/* .Input-box #text, */
+.input-box input,
 .Input-box #submit-button{
   text-align: left;
   width: 90%;
@@ -76,12 +78,11 @@ padding-left: 48%;
 .container #emailerror,
 .container #lastnmerror{
   margin-top: 5px;
-  /* width: 415px; */
   font-size: 10px;
   color: hsl(0, 100%, 74%);
   text-align:center;
   padding-left: 70%;
-  display: none;
+  display:none;
 }
 
 
@@ -95,6 +96,9 @@ span{
     text-align: center;
     background-color: hsl(154, 59%, 51%);
     cursor: pointer;
+    margin-left: 18px;
 
-}
+} 
+/* } */
+
 

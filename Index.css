@@ -9,6 +9,7 @@
 .all{
   display: flex;
   justify-content: space-between;
+    /* margin: 300px 20px 10px 10px; */
 }
 .sidetext {
 width: 40%;
@@ -17,8 +18,14 @@ width: 40%;
 
 
 
+@media screen and (min-width: 375px) {
+    .all {
+      display: block;
+    }
+  
   .sidetext {
       margin-top: 25%;
+      /* padding-left: 68%; */
       width: 40%;
   }
   .container {
@@ -96,6 +103,6 @@ span{
     margin-left: 18px;
 
 } 
-/* } */
+}
 
 

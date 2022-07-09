@@ -1,0 +1,12 @@
+
+body{
+    background-image: url("images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    width: 1440px;
+}
+@media only Screen and (orientation: landscape){
+    body{
+        background-image: url("images/bg-intro-mobile.png");
+        width: 375px;
+    }
+}
